@@ -1,0 +1,26 @@
+\usepackage[
+        backend=biber,
+        style=authoryear,
+        language=american,   % proper comma inside quotation behavior
+        sorting=nyt,
+        natbib=true,
+        doi=true,
+        arxiv=abs,
+        url=true
+]{biblatex}
+\addbibresource{main.bib}
+\DefineBibliographyStrings{american}{phdthesis = {PhD dissertation}}
+\preto\fullcite{\AtNextCite{\defcounter{maxnames}{99}}}
+\usepackage{bibentry}
+\usepackage{hyperref}
+%\usepackage[hidelinks]{hyperref}
+\usepackage{booktabs} % Top and bottom rules for tables
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
