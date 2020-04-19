@@ -23,6 +23,7 @@ _TODO: Provide commands and descriptions for running your code. Feel free to add
 _TODO: Provide the commands for installing all necessary dependencies._
 
 ``` 
+# executed from within the `code` directory:
 docker build -f Dockerfile -t "ling-539/final-project:latest" .
 ```
 
