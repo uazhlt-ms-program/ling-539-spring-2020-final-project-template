@@ -4,7 +4,11 @@ _TODO: Explain the layout of your final project, any notes, etc._
 
 - _TODO: include URL here_
 
-_NOTE: A PDF of your presentation slides named `presentation-slides.pdf` should be added under the `presentation-slides` directory.  Your presentation video may be uploaded to Google Drive](https://drive.google.com/) (**New** &rarr; **File upload**), [YouTube](https://studio.youtube.com/), [Vimeo](https://vimeo.com/upload), [DropBox](https://www.dropbox.com) (**Upload files**), or [Box](https://arizona.account.box.com) (**Upload** &rarr; **File**).  It does not need to be public (i.e., discoverable via a web search), so long as your instructor can view it via the URL above._
+_NOTE: A PDF of your presentation slides named `presentation-slides.pdf` should be added under the `presentation-slides` directory.  
+
+Your presentation video may be uploaded to [Google Drive](https://drive.google.com/) (**New** &rarr; **File upload**), [YouTube](https://studio.youtube.com/), [Vimeo](https://vimeo.com/upload), [DropBox](https://www.dropbox.com) (**Upload files**), or [Box](https://arizona.account.box.com) (**Upload** &rarr; **File**).  The video does not need to be public (i.e., discoverable via a web search), so long as your instructor can view it via the URL above. 
+
+The expected length of the video is 3-10 minutes._
 
 # Data
 
