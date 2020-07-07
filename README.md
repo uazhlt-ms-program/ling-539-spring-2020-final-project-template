@@ -1,4 +1,5 @@
 _TODO: Explain the layout of your final project, any notes, etc._ 
+My final project takes a semi-supervised approach, using pretrained embeddings, to classify a dataset of newspaper articles into 6 topics/categories. To select the categories uses LDA and insight knowledge of the researcher.
 
 # Presentation
 
@@ -14,9 +15,24 @@ _The expected length of the video is 3-10 minutes._
 
 _TODO: Provide 1) a description of your data and 2) a link/instructions for access._
 
+My dataset consists in about 3000 newspaper articles that mention the event of violence known as “Piazza Fontana” bombing, which took place on December 12, 1969 in Milan, Italy. 
+I collected the articles by scraping the online archive of one of the main Italian newspaper, “La Repubblica”  for the time period from 1984 to 2019.
+These data ("rep_main&art_clean_pzfontana_manualcheck_1984_2019.csv") are accessible at this link: 
+
+The pretraned embeddings dataset is avaiable at this link (select italian, 100d) https://wikipedia2vec.github.io/wikipedia2vec/pretrained/
+Note that these data needs to be decompressed before use. These vectors have been trained on Italian Wikipedia with the skip-gram model (window=5, iteration=10, negative=15)
+The data are offered in binary and text format (I used the text format) and as 100d and 300d vectors (I used the 100d)
+
+
 # Code
 
 _TODO: Provide commands and descriptions for running your code. Feel free to add subsections as needed._
+
+The code is organized in 4 steps, each with a set of functions. Each function has docstrings to explain what the function does and the parameters it takes.
+STEP 1: LOAD THE DATASET AND PREPROCESS IT
+STEP 2: UNZIP, LOAD, AND PREPROCESS THE PRETRAINED EMBEDDINGS DATASET
+STEP 3: MATCH THE PRETRAINED EMBEDDINGS WITH MY DATA AND TRANSFORM MY DATA INTO VECTORS
+STEP 4: CLASSIFY DOCUMENTS INTO CATEGORIES USING COSINE SIMILARITY 
 
 ## Installation
 
